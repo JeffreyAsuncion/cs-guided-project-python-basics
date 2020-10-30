@@ -9,7 +9,6 @@ Examples:
 - convert(2) ➞ 120
 """
 def convert(minutes:int) -> int:
-    # Your code here
     # set seconds to the value of the expression minutes * 60
     seconds = minutes * 60
     return seconds

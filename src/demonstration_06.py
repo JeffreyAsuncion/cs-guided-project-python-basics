@@ -16,5 +16,26 @@ Examples:
 - XO("zzoo") ➞ False
 """
 def XO(txt):
-    # Your code here
+    # count number of x and o's
+    # compare if num_x == num_0
+    txt = txt.lower()
+    num_x = 0
+    for letter in txt:
+        if letter == "x":
+            num_x += 1
+    
+    num_o = 0
+    for letter in txt:
+        if letter == "o":
+            num_o += 1
 
+    if num_x == num_o:
+        return True
+    else:
+        return False
+
+print(XO("ooxx")) #➞ True
+print(XO("xooxx")) #➞ False
+print(XO("ooxXm")) #➞ True (Case insensitive)
+print(XO("zpzpzpp")) #➞ True (Returns True if no x and o)
+print(XO("zzoo")) #➞ False

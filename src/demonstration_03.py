@@ -11,7 +11,6 @@ Examples:
 - string_int("12") ➞ 12
 """
 def string_int(txt):
-    # Your code here
     # set my number to the int value of txt
     number = int(txt)
     return number
