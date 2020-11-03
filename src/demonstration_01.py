@@ -8,9 +8,17 @@ Examples:
 - addition(-3, -6) ➞ -9
 - addition(7, 3) ➞ 10
 """
+# def addition(a, b):
+#     # take two arguments
+#     # set a sum to the value of the expression a plus b 
+#     sum  = a + b
+#     # return our sum to the caller
+#     return sum
+
 def addition(a, b):
     # take two arguments
-    # return sum
+    # return our sum to the caller
+    # return the value of the expression a plus b 
     return a + b
 
 print(addition(3, 2))
