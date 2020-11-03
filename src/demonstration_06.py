@@ -18,20 +18,34 @@ Examples:
 def XO(txt):
     # count number of x and o's
     # compare if num_x == num_0
+
+    # convert txt to lowercase with .lower()
     txt = txt.lower()
+
+    # initialize num_x = 0
     num_x = 0
+
+    # for each letter in txt
     for letter in txt:
+        # check if it is an "x"
         if letter == "x":
+            # add to num_x the x counter
             num_x += 1
     
+    # for each letter in txt
     num_o = 0
     for letter in txt:
+        # check if it is an "o"
         if letter == "o":
+            # add to num_o the o counter
             num_o += 1
 
+    # check it  num_x and num_o are same
     if num_x == num_o:
+        # return they are the same 
         return True
     else:
+        # return they are different
         return False
 
 print(XO("ooxx")) #➞ True
