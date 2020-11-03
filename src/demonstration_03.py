@@ -11,8 +11,11 @@ Examples:
 - string_int("12") ➞ 12
 """
 def string_int(txt):
+    # cast string into an int
+    # we can use the int() constructor to convert other data types to an Integer
     # set my number to the int value of txt
     number = int(txt)
+    # return number 
     return number
 
 print(string_int("6"))
