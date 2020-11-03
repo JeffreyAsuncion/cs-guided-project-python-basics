@@ -15,6 +15,7 @@ Examples:
 #     # return our sum to the caller
 #     return sum
 
+# this uses one less variable, saves memory
 def addition(a, b):
     # take two arguments
     # return our sum to the caller
