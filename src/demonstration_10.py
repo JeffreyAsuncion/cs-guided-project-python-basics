@@ -15,11 +15,11 @@ Notes:
 """
 import numpy as np
 
-def mapping(nums):
+def get_discounts(nums, discount):
     # Your code here
     lst = np.array(nums)
-
-    return None
+    discount = float(discount.strip("%"))
+    return lst * discount/100
 
 
 
