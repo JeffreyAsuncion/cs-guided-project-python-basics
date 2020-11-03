@@ -12,6 +12,9 @@ Examples:
 """
 def sort_by_length(lst):
     # Your code here
+    # how to sort a list in python sort() vs sorted()
+    # .sort() modifies list in-place
+    # we will use sort with the key attribute set to len 
     lst.sort(key=len)
     return lst
 
