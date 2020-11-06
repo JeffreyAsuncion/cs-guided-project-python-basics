@@ -19,7 +19,7 @@ def get_discounts(nums, discount):
     # Your code here
     lst = np.array(nums)
     discount = float(discount.strip("%"))
-    return lst * discount/100
+    return lst * discount/100 # array multiplication
 
 
 
