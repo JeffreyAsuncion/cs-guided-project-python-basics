@@ -12,7 +12,8 @@ Examples:
 """
 def num_args(*args):
 
-    # Your code here
+    # * args => a list of arguments in the parentheses
+    
     # look up how to find the number of arguments in a python function
     # using len() method in args to count
     return(len(args))

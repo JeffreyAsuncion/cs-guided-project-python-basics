@@ -20,7 +20,7 @@ def nth_smallest(lst, n):
     new_lst = sorted(lst)
 
     # find the value at the  n-1 index
-    num = new_lst[n-1]
+    num = new_lst[n-1] # remeber why it is n-1, index starts at 0
         
     # return the nth smallest digit in lst
     return num
